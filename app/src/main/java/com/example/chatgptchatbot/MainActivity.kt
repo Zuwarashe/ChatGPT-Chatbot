@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     fun getResponse(question: String, callback: (String) -> Unit) {
         val url = "https://api.openai.com/v1/chat/completions"
-        val apiKey = "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"
+        val apiKey = ""
 
         // Create JSON request body for GPT-3.5 Turbo
         val requestBody = """
